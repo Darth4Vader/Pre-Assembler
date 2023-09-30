@@ -1,0 +1,12 @@
+, mov r3, LENGTH
+mov ,r3, LENGTH
+mov r3 LENGTH
+mov r3,,LENGTH
+mov r3, LENGTH,
+prn ,#-5
+prn #-5,
+bne LOOP,
+bne ,LOOP
+stop ,
+stop,
+,stop

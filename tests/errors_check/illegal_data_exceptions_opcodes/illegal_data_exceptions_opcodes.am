@@ -1,0 +1,9 @@
+lea #1, r3
+lea r3, LABEL
+
+mov r3, #1
+lea LABEL, #15
+not #1
+
+bne #1(r4,r3)
+bne r3(r4,r3)
